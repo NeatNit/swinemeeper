@@ -5,11 +5,52 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Swinemeeper</title>
   <style type="text/css">
+    #swine-grid {
+      border-spacing: 1px;
+      margin: auto;
+    }
 
+    #swine-grid td {
+      box-sizing: border-box;
+      background: lightgrey;
+      width: 25px;
+      height: 25px;
+      border: 3px solid;
+      border-color: darkgrey grey;
+    }
+
+    #swine-grid td:active {
+      border-color: grey darkgrey;
+    }
   </style>
   </head>
   <body>
-
+    <table id="swine-grid">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
   <script type="text/javascript">
    function autorun()
    {
